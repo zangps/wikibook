@@ -16,6 +16,7 @@ After I have applied this, I became enthusiastic about contributing to open sour
 Change the ?username= value to your GitHub username.
 
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun)
+
 Demo
 Taehyun's GitHub Repository Contribution stats
 
@@ -25,20 +26,24 @@ Limiting contribution repos to show
 To limit contribution repos to show, you can pass a query parameter &limit= with number value. For example, if you want to show only 5 contribution repos, then add limit=5 like the following one.
 
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun&limit=5)
+
 Hiding rank stats
 To hide specific ranks, you can pass a query parameter &hide= with comma-separated rank values. If you need to add plus rank (ex. B+) to hide arrays , it is always safe to replace pluses with %2B
 
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun&hide=B,B%2B)
+
 Including all contributions, not only recent contributions
 By default, the card is generated from GitHub's GraphQL API repositoriesContributedTo, which only includes recent contributions. To include all contributions, add &combine_all_yearly_contributions=true query parameter, which will let the card be generated from GitHub's GraphQL API contributionsCollection, including all contributions.
 
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun&combine_all_yearly_contributions=true)
+
 Themes
 With inbuilt themes, you can customize the look of the card without doing any manual customization.
 
 Use &theme=THEME_NAME parameter like so :-
 
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun&hide=B&theme=default)
+
 All inbuilt themes:- in github-readme-stats' themes
 dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula
 
